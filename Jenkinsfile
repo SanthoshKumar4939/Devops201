@@ -11,7 +11,7 @@ node {
 	
    stage('Compile-Package'){
 	   // Build using maven
-	   def mvn = tool name: '', type: 'maven'
+	   def mvn = tool name: 'maven-3', type: 'maven'
 	   
 	   sh "${mvn}/bin/mvn package"
    }
