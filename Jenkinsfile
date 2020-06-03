@@ -4,8 +4,7 @@ node {
    stage('SCM Checkout'){
     // Clone repo
 	git branch: 'master', 
-	url: 'https://github.com/SanthoshKumar4939/Devops201'
-   
+	url: 'https://github.com/SanthoshKumar4939/Devops201'   
    }
    
    
